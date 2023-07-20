@@ -1,0 +1,73 @@
+.PrincipalTitle {
+    font-family:cursive;
+    font-size: xxx-large;
+    margin-bottom: 20px;
+    color: rgb(201, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.712);
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.col {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.note-important {
+    background-image: url(./sticky_note_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+}
+
+.note-normal {
+    background-image: url(./sticky_note_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+}
+
+.title {
+    color: rgb(167, 0, 0);
+    font-family: fantasy;
+    margin-bottom: 1px;
+}
+
+.desc {
+    font-family:cursive;
+    font-size: medium;
+}
+
+  
+#main {
+    background-color: rgb(187, 255, 142);
+}
+
+#title {
+    margin: 5px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#desc {
+    margin: 5px;
+    width: 80%;
+}
+
+#checkbox {
+    margin: 5px;
+}
+
+#boton {
+    margin: 5px;
+}
